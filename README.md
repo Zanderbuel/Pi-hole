@@ -11,18 +11,15 @@ This is how I set up a Pi-Hole on my network to block unwanted ads.
 - Network Setup: Router → Pi-hole → Client devices
 - Operating System: Windows 11
 # Acquire the necessary devices
-1. Raspberry Pi 5 from https://www.raspberrypi.com/products/raspberry-pi-5/. It will look like this:
+1. [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/). It will look like this:
 
 <img src="https://github.com/user-attachments/assets/b75244f7-b766-4ab0-8e2e-d43916a48b75" alt="Image" width="400" height="500">
 
-2. Micro HDMI cable. Recommended: Micro HDMI to HDMI Display Cable, 18Gbps High-Speed, 4K@60Hz, 2160p, 48-Bit Color, Ethernet Ready, 6 Foot. 
-Buy it at https://www.amazon.com/Amazon-Basics-Display-High-Speed-Ethernet/dp/B07KSDB25X/ref=sr_1_1?s=electronics&sr=1-1
+2. [Micro HDMI cable](https://www.amazon.com/Amazon-Basics-Display-High-Speed-Ethernet/dp/B07KSDB25X/ref=sr_1_1?s=electronics&sr=1-1).
 
-3. Buy a Raspberry buy charger. Recommended: Vilros 27W -5V/5A USB-C Power Supply Compatible with Raspberry Pi 5 & Apple Devices with USB-C Charging Port. 
-Buy it at https://www.amazon.com/Vilros-Raspberry-Compatible-USB-C-Supply/dp/B0CVJ7S3NF/ref=sr_1_1?s=electronics&sr=1-1
+3. [Raspberry Pi charger](https://www.amazon.com/Vilros-Raspberry-Compatible-USB-C-Supply/dp/B0CVJ7S3NF/ref=sr_1_1?s=electronics&sr=1-1).
 
-4. Samsung - Pro Plus 256GB microSDXC Memory Card
-Buy it at https://www.bestbuy.com/product/samsung-pro-plus-256gb-microsdxc-memory-card/J3ZYG2PHHC
+4. [Samsung - Pro Plus 256GB microSDXC Memory Card](https://www.bestbuy.com/product/samsung-pro-plus-256gb-microsdxc-memory-card/J3ZYG2PHHC).
 
 # Assemble Devices
 1. Insert the SD card in the bottom of the Raspberry Pi.
@@ -44,7 +41,7 @@ Buy it at https://www.bestbuy.com/product/samsung-pro-plus-256gb-microsdxc-memor
 5. Under Services, check Enable SSH and click "Use password Authentication."
 <img width="677" height="485" alt="Image" src="https://github.com/user-attachments/assets/bfacebf9-00aa-4572-8f93-e6212f423f5d" />
 
-  6. Install Real VNC Viewer. This will give you the ability to run Raspberry Pi on your computer. Download it here: https://www.realvnc.com/en/connect/download/viewer/?lai_vid=PXy6kmxlkhV5J&lai_sr=0-4&lai_sl=l
+  6. [Install Real VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/?lai_vid=PXy6kmxlkhV5J&lai_sr=0-4&lai_sl=l). This will give you the ability to run Raspberry Pi on your computer.
 
 7. Once installed, search for raspberrypi.local in the search bar.
 
@@ -137,7 +134,7 @@ This command starts the installation wizard.
 
   
 
-  Search The Firebog https://firebog.net/ for a list of suspicious links you can add.
+  Search [The Firebog](https://firebog.net/) for a list of suspicious links you can add.
 
   ## Test the Pi's effectiveness
 
