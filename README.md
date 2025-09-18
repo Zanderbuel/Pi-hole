@@ -30,30 +30,33 @@ This is how I set up a Pi-Hole on my network to block unwanted ads.
   # Install Prerequisite programs
   1. Install Raspberry Pi imager from https://www.raspberrypi.com/software/.
   2. Configure the imager. Choose Device, OS, and Storage.
-    
+    <br><br><br>
 <img width="585" height="468" alt="raspberry pi image" src="https://github.com/user-attachments/assets/145ae700-8bef-4776-9274-80d80f81664c" />
+<br><br><br>
 
 3. Click "EDIT SETTINGS" when asked if you want to apply OS customisation settings.
 4. Set hostname, username, wireless LAN, Locale Settings. 
-
+<br><br><br>
 <img width="677" height="592" alt="raspberry pi settings" src="https://github.com/user-attachments/assets/99a33ee3-4901-496e-95bd-d77194a7e677" />
+<br><br><br>
 
 5. Under Services, check Enable SSH and click "Use password Authentication."
+<br><br><br>
 <img width="677" height="485" alt="Image" src="https://github.com/user-attachments/assets/bfacebf9-00aa-4572-8f93-e6212f423f5d" />
+<br><br><br>
 
   6. [Install Real VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/?lai_vid=PXy6kmxlkhV5J&lai_sr=0-4&lai_sl=l). This will give you the ability to run Raspberry Pi on your computer.
-
 7. Once installed, search for raspberrypi.local in the search bar.
-
+<br><br><br>
 <img width="800" height="472" alt="real vnc viewer" src="https://github.com/user-attachments/assets/b56fd2bf-4e27-43f8-9726-b20525808e57" />
 
-
+<br><br><br>
 
 Open Raspberry Pi. It will look like this:
 
 
 <img width="918" height="828" alt="Raspberry Pi Desktop" src="https://github.com/user-attachments/assets/5c3f7e32-85c1-4bb5-9d96-3e75fe820247" />
-
+<br><br><br>
 # Set Up Pi-Hole on Raspberry Pi
 ## Update Raspberry Pi
 ### Run these 2 commands:
@@ -84,9 +87,9 @@ You can then enter the information. Example:
   
 ## Set the IP address of your computer to be the same as the IP address for your Pi. 
 - Go to Control Panel\Network and Internet\Network and Sharing Center
-
+<br><br><br>
 <img width="893" height="642" alt="Network and Sharing Center" src="https://github.com/user-attachments/assets/7099884a-dc74-49aa-bb76-4399f42c0de8" />
-
+<br><br><br>
 
 
 - Click change adapter settings. Then right click Wi-Fi and click Properties.
@@ -98,9 +101,9 @@ You can then enter the information. Example:
 
   - Double click Internet Protocol Version 4 (TCP/IPv4). 
   - Click Use the following DNS server address and enter the address of your Pi for Preferred DNS server.
-
+<br><br><br>
 <img width="555" height="646" alt="Image" src="https://github.com/user-attachments/assets/806ba5cb-c3c1-43ee-96d7-a5e5e673e1d3" />
-
+<br><br><br>
 ## Install Pi-Hole Using the Terminal
 Use this command:
 
@@ -121,18 +124,19 @@ This command starts the installation wizard.
 
   Log in using your username and password.
 
-  
+  <br><br><br>
 <img width="617" height="557" alt="Image" src="https://github.com/user-attachments/assets/373cab22-ccb3-4b79-8971-45f10824b44a" />
+  <br><br><br>
   
   ## Add domains to a blacklist
   This will put the Pi-Hole to work.
 
   Go to Lists and start adding URLs to the Address bar.
 
-  
+  <br><br><br>
   <img width="1275" height="883" alt="pi hole list" src="https://github.com/user-attachments/assets/1af6970e-6e04-484f-a736-027f4e1292ec" />
 
-  
+  <br><br><br>
 
   Search [The Firebog](https://firebog.net/) for a list of suspicious links you can add.
 
@@ -142,18 +146,18 @@ This command starts the installation wizard.
 
   Here is the CNN homepage before the Pi-Hole is working:
 
-  
+  <br><br><br>
 
   <img width="601" height="867" alt="cnn before pi hole" src="https://github.com/user-attachments/assets/b43d6f3f-bd11-4780-8ac5-6d5daaaa9a85" />
-
+<br><br><br>
   
 
-  Here is the CNN homepage after the Pi-Hole is working.
+  Here is the CNN homepage after the Pi-Hole is working:
 
   
-
+<br><br><br>
   <img width="1015" height="538" alt="cnn after pi hole" src="https://github.com/user-attachments/assets/968efab5-e522-4525-acca-8ab80d0bbc09" />
-
+<br><br><br>
   
 
   Success!
